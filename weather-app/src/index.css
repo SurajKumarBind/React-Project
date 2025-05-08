@@ -1,0 +1,28 @@
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components; */
+@tailwind utilities;
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s ease-in-out infinite;
+}
+
+.bg-gradient-sky {
+  background: linear-gradient(135deg, #60a3d9, #f1c40f);
+}
+
+.bg-gradient-night {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+}
